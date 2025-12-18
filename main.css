@@ -39,6 +39,13 @@ h3 {
   margin: 10px;
 }
 
+h4 {
+  font-size: Cambria;
+  font-size: 19px;
+  text-align: left;
+  color: white;
+}
+
 p {
   color: white;
   font-size: 18px;
@@ -91,7 +98,16 @@ body {
   
 }
 
-
+.info_box {
+    width: 700px;                 /* Adjust box width */
+    margin: 50px auto;          /* Centers the box horizontally */
+    padding: 20px;              /* Inner spacing */
+    border: 2px solid #333;     /* Border around the box */
+    border-radius: 10px;        /* Rounded corners */
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;           /* Ensures text inside is left-aligned */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional subtle shadow */
+}
 
 
 /* ---------- BUTTONS --------- */
@@ -148,4 +164,21 @@ body {
 .center_link:hover {
   font-size: 18.2px;
   color: rgb(100, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+/* ---------- Divider ----------*/
+
+.divider {
+    width: 100%;           /* Full page width */
+    height: 2px;           /* Thickness of the line */
+    background-color: #ffffff; /* Line color */
+    margin: 5px 0;        /* Space above and below */
 }
