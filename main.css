@@ -58,7 +58,9 @@ body {
   background-color: #0D0F14;
 }
 
-
+li {
+  color: white;
+}
 
 
 /* ----------CONTAINERS ---------- */
